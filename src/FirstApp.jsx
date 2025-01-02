@@ -5,6 +5,9 @@ const getResult = (a,b)=>{
 }
 
 export const FirstApp = () =>{
+
+    
+    
     return (
         <>
         <h1>{getResult(1,2)}</h1>

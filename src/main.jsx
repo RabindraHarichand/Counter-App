@@ -5,6 +5,7 @@ import { HelloWorldApp } from './HelloWorldApp';
 import { FirstApp } from './FirstApp';
  './HelloWorldApp'
 
+ import './styles.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
