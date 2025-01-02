@@ -4,7 +4,7 @@ const getResult = (a,b)=>{
     return a+b
 }
 
-export const FirstApp = ({title, subtitle}) =>{
+export const FirstApp = ({title, subtitle, name}) =>{
     
     
 
@@ -12,7 +12,8 @@ export const FirstApp = ({title, subtitle}) =>{
         <>
         <h1>{title}</h1>
             {/* <code>{JSON.stringify(newMessage)}</code> */}
-            <p>{subtitle + 1}</p>
+            <p>{subtitle}</p>
+            <p>{name}</p>
         </>
         
     )
@@ -20,5 +21,11 @@ export const FirstApp = ({title, subtitle}) =>{
 
 FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
-    subtitle: PropTypes.number
+    subtitle: PropTypes.string
+}
+
+FirstApp.defaultProps = {
+    title: 'No hay titulo',
+    subtitle: 'No hay subtitulo',
+    name: 'Rabindra'
 }
