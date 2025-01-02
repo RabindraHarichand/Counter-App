@@ -1,13 +1,14 @@
-// import {Fragment} from 'react'
+
+
+const getResult = (a,b)=>{
+    return a+b
+}
+
 export const FirstApp = () =>{
     return (
-        // <Fragment>
-        //     <h1>FirstApp</h1>
-        //     <p>Soy un subitulo</p>
-        // </Fragment>
-        //Fragment equivalent
         <>
-            <h1>FirstApp</h1>
+        <h1>{getResult(1,2)}</h1>
+            {/* <code>{JSON.stringify(newMessage)}</code> */}
             <p>Soy un subitulo</p>
         </>
         
