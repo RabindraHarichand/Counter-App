@@ -11,6 +11,6 @@ import { FirstApp } from './FirstApp';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <HelloWorldApp />
-        <FirstApp title="Hola soy Goku" subtitle={123} />
+        <FirstApp title='Hola soy goku'/>
     </React.StrictMode>
 )
